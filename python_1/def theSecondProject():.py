@@ -43,10 +43,11 @@ def main():
     # Display the menu
     displayMenu()
     def main(): This is the main program
-    allFeatues = ["Adding", "Subtratction", "Division", "Multiplication", "Module"]
+    allFeatures = ["Adding", "Subtratction", "Division", "Multiplication", "Module"]
+    
    #Start loop 
-   # for currentFeature in allFeatures:
-   #    print(currentFeature)
+   for currentFeature in allFeatures:
+      print(currentFeature)
    #Advanced loop
    
     # Get user input for the operation
