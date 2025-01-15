@@ -1,8 +1,11 @@
 body {
     background-color: pink;
+    margin: 24px 24px 24px 24px;
 }
 
 header {
     background-color: #479b9e;
     text-align: center;
+    font: size 69px; ;
+   
 }
