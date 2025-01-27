@@ -42,3 +42,16 @@ nav{
     max-width: 800px; /* Optional: Limit the width of the content */
     margin: 0 auto; 
 }
+
+.Pets {
+    text-align: center;
+    width: 400px;
+}
+
+ul {
+font-family: monospace;
+}
+
+a {
+    color: darkgreen;
+}
