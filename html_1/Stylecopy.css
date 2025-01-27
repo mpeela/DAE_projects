@@ -32,7 +32,7 @@ nav{
     margin-top: 20px;
     padding-left: 20px;  /* Move the text slightly to the right */
     max-width: 800px; /* Optional: Limit the width of the content */
-    margin: 0 auto; /* Center the content horizontally */
+    margin: 0 ; /* Center the content horizontally */
 }
 
 .info-container ul {
@@ -41,4 +41,17 @@ nav{
     padding-left:0px; /* Remove default padding from the list */
     max-width: 800px; /* Optional: Limit the width of the content */
     margin: 0 auto; 
+}
+
+.Pets {
+    text-align: center;
+    width: 400px;
+}
+
+ul {
+font-family: monospace;
+}
+
+a {
+    color: darkgreen;
 }
