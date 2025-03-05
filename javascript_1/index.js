@@ -20,3 +20,4 @@ if (adoptedDogsAndCats > 0 || adoptedDogsAndCats < 20) {
 } else {
     console.log('Awesome job!')
 }
+console.log(DogsAndCats);
