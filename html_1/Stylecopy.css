@@ -1,22 +1,26 @@
 body {
-    background-color: pink;
+    background-color: bisque;
     margin: 24px 24px 24px 24px;
 }
 
 header {
-    background-color: #479b9e;
+    background-color: #593232;
     text-align: center;
     font: size 69px; ;
    
 }
 
 .puppyclass{
-    background-color: aqua;
+    background-color: bisque;
 
 }
 
 img{
     width: 500px;
+}
+
+#dogimg{
+    width: 400px;
 }
 
 footer{
@@ -53,5 +57,9 @@ font-family: monospace;
 }
 
 a {
-    color: darkgreen;
+    color: rgb(179, 103, 217);
+
+}
+a:hover {
+    color:rgb(68, 125, 175)
 }
