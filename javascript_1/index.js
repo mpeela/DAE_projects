@@ -21,3 +21,7 @@ if (adoptedDogsAndCats > 0 || adoptedDogsAndCats < 20) {
     console.log('Awesome job!')
 }
 console.log(DogsAndCats);
+
+document.getElementById("dogsBtn").addEventListener("click", function() {
+    window.location.href = "dogs.html";  // Replace with your desired URL
+});
