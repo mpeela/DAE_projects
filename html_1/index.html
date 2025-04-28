@@ -49,5 +49,29 @@
         <a href="hi.html">Bootstrap page</a>
     </footer>
     <script src="../javascript_1/index.js"></script>
+
+    <!-- Firebase App (core SDK) -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+
+<!-- Firebase Storage -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage.js"></script>
+
+
+<script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+      projectId: "YOUR_PROJECT_ID",
+      storageBucket: "YOUR_PROJECT_ID.appspot.com",
+      messagingSenderId: "YOUR_SENDER_ID",
+      appId: "YOUR_APP_ID"
+    };
+  
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+    const storage = firebase.storage();
+  </script>
+  
 </body>
 </html>
