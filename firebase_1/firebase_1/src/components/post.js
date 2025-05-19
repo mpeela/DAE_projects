@@ -56,7 +56,6 @@ async function onSubmitPost() {
         <input placeholder="Location..." onChange={(e) => setIsNewPostLocation(e.target.value)}></input>
         <input placeholder="Description..." onChange={(e) => setIsnewPostDescription(e.target.value)}></input>
        
-        {/* <input placeholder="Image..."></input> */}
         <button onClick={onSubmitPost}>Button</button>
     <div>
     {postsList.map((posts)=> (
@@ -70,7 +69,6 @@ async function onSubmitPost() {
           <p>By: {posts.Author}</p>
           <p> Location: {posts.location}</p>
           <p>Description: {posts.Description}</p>
-          {/* <img src={posts.ImageURL}></img> */}
           </div>
       ))}
     </div>
